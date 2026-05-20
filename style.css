@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 
+body {
+    background: url("sakk-hatter.png");
+    background-size: 300px;
+}
 
-body { 
-    background: url('sakk-hatter.png'); 
-    background-size: 300px; 
-
-} 
-
-
-h1 { 
-    font-family: 'Cinzel Decorative', cursive!important; 
-    font-size: 96px!important; 
-    text-align: center; 
-} 
+h1 {
+    font-family: 'Cinzel Decorative'!important;
+    font-size: 96px !important;
+    text-align: center;
+}
 
 .fk {
     font-weight: bold;
@@ -28,16 +25,21 @@ h1 {
     background-color: white;
 }
 
-.alakzat { 
-    font-size: 6em; 
-    text-align: center; 
-    margin: 0; 
-} 
+.alakzat {
+    text-align: center;
+    margin: 0;
+    font-size: 6em;
+}
 
-.kepalairas { 
-    font-style: italic; 
-    font-size: 12px; 
-    text-align: center; 
-    border: 1px solid black; 
-    border-radius: 6px; 
-} 
+.kepalairas {
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.felsorolas {
+    line-height: 2.5em;
+    list-style: url('huszar-felsorolas.png');
+}
